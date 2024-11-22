@@ -44,7 +44,6 @@ function isBalanced(expresssion) {
                     stack push : {  [  (
                     stack pop : top (
     */
-
   let stack = [];
   for (let char of expresssion) {
     if (char === "{" || char === "[" || char === "(") {
