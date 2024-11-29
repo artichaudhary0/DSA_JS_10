@@ -71,7 +71,6 @@ article2.addTag("Javascript");
 article2.addTag("App development");
 article2.addTag("App development");
 let ans = [...article.union(article2.getTags())];
-
 console.log(ans);
 
 // let otherValue = new Set(["grey", "black", "black"]);
